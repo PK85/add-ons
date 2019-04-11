@@ -20,7 +20,7 @@ The repository has the following structure:
 ```
   ├── .github                     # Pull request and issue templates    
   ├── bin                         # Tools used by Travis CI         
-  ├── bundles                     # Sources of add-ons                                                
+  ├── addons                     # Sources of add-ons                                                
   ├── docs                        # Documentation source files
   └── scripts                     # Scripts and tools which check and create add-ons
 ```
