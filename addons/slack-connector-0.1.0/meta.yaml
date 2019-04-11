@@ -1,0 +1,13 @@
+name: slack-connector
+version: 0.1.0
+id: 093d9d37-e1b4-4523-bc7b-1798028cdf38
+description: "Application Connector which registers Slack APIs and Events into Kyma Service Catalog (Experimental)"
+displayName: Slack Connector
+
+tags: application-connector, service-catalog, slack, api, events
+providerDisplayName: DoIt
+longDescription: "Application Connector which registers Slack APIs and Events into Kyma Service Catalog (Experimental)"
+documentationURL: https://github.com/PK85/add-ons/addons/slack-connector-0.1.0/docs
+supportURL: https://github.com/PK85/add-ons/addons/slack-connector-0.1.0/docs
+imageURL: https://avatars2.githubusercontent.com/u/6911160?s=200&v=4
+bindable: false

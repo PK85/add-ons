@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "imagePullPolicy": {
+      "type": "string",
+      "title": "Secret name",
+      "description": "Please provide a name of the k8s secret that holds credentials from Slack"
+    }
+  }
+}

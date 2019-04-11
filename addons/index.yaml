@@ -1,6 +1,10 @@
 apiVersion: v1
 entries:
   redis:
-    - name: redis
+    - name: slack-connector
       description: "Redis service"
       version: 0.0.3
+  slack-connector:
+    - name: slack-connector
+      description: "Application Connector which registers Slack APIs and Events into Kyma Service Catalog"
+      version: 0.1.0

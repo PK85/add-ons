@@ -1,0 +1,6 @@
+name: default
+id: 45997fe4-04d9-45bb-964e-6ef734a78a8b
+description: "Installs APIs and Events service classes"
+displayName: Default
+
+bindable: false
