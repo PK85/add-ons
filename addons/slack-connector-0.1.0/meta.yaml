@@ -11,3 +11,4 @@ documentationURL: https://github.com/PK85/add-ons/addons/slack-connector-0.1.0/d
 supportURL: https://github.com/PK85/add-ons/addons/slack-connector-0.1.0/docs
 imageURL: https://avatars2.githubusercontent.com/u/6911160?s=200&v=4
 bindable: false
+provisionOnlyOnce: true

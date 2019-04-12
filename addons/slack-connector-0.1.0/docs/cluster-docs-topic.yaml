@@ -1,0 +1,22 @@
+apiVersion: cms.kyma-project.io/v1alpha1
+kind: ClusterDocsTopic
+metadata:
+  labels:
+    cms.kyma-project.io/view-context: service-catalog
+  name: 093d9d37-e1b4-4523-bc7b-1798028cdf38
+spec:
+  displayName: "Slack Connector Add-on"
+  description: "Overall documentation, OpenAPI and AsyncAPI for Slack Connector Add-on"
+  sources:
+    - type: markdown
+      name: markdown-slack
+      mode: single
+      url: https://raw.githubusercontent.com/slackapi/slack-api-specs/master/README.md
+    - type: asyncapi
+      name: asyncapi-slack
+      mode: single
+      url: https://raw.githubusercontent.com/slackapi/slack-api-specs/master/events-api/slack_events_api_async_v1.json
+    - type: openapi
+      name: openapi-slack
+      mode: single
+      url: https://raw.githubusercontent.com/slackapi/slack-api-specs/master/web-api/slack_web_openapi_v2.json
